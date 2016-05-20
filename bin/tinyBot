@@ -1,3 +1,10 @@
 #!/usr/bin/env ruby
 
 root = File.dirname(File.dirname(__FILE__))
+$:.unshift(File.join(root, 'lib'))
+
+require 'tinyBot'
+
+options = TinyBotOptionparser.parse(ARGV)
+pp options
+pp ARGV
