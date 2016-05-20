@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'tinyBot'
+  s.name        = 'tiny_bot'
   s.version     = '1.0.0'
   s.date        = '2016-05-18'
   s.authors     = 'Arvindcj'
@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.summary     = "Task Automation"
   s.description = "Workflow Automation"
   s.executables = "tinyBot"
-  s.files       = [ "bin/tinyBot",
-                    "lib/tinyBot.rb",
-                    "lib/tinyBot/crypto.rb",
-                    "lib/tinyBot/uploader.rb"
+  s.files       = [ "bin/tiny_bot",
+                    "lib/tiny_bot.rb",
+                    "lib/tiny_bot/crypto.rb",
+                    "lib/tiny_bot/uploader.rb"
                   ]
 end
